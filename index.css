@@ -6,6 +6,60 @@
   font-family: "spartan", sans-serif;
 }
 
+.typing-text {
+  border-right: 0.15em solid #fff;
+  animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+.hero h4,
+.hero h1 {
+  animation: in 2s ease-in;
+}
+@keyframes in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.hero button p {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
 body {
   width: 100%;
 }
@@ -132,7 +186,7 @@ button.normal {
   background-color: wheat;
   color: #088178;
   border: 0;
-  padding: 14px 80px 14px 65px;
+  padding: 0 40px 0 40px;
   background-repeat: no-repeat;
   cursor: pointer;
   font-weight: 700;
@@ -749,7 +803,7 @@ footer .copyright {
   color: #000;
 }
 /* cart section */
-#cart{
+#cart {
   overflow-x: auto;
 }
 #cart table {
@@ -821,39 +875,28 @@ footer .copyright {
   border: 1px solid #e2e9e1;
 }
 #coupon button,
-#Subtotal button{
+#Subtotal button {
   background-color: #088178;
   color: #fff;
   padding: 12px 20px;
 }
-#Subtotal{
+#Subtotal {
   width: 50%;
   margin-bottom: 30px;
   border: 1px solid #e2e9e1;
   padding: 30px;
 }
-#Subtotal table{
+#Subtotal table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 20px;
-
 }
-#Subtotal table td{
+#Subtotal table td {
   width: 50%;
   border: 1px solid #e2e9e1;
   padding: 10px;
   font-size: 13px;
 }
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 799px) {
   .section-p1 {
@@ -1082,13 +1125,13 @@ footer .copyright {
     margin-bottom: 30px;
   }
   /* cart section */
-  #cart-add{
+  #cart-add {
     flex-direction: column;
   }
   #coupon {
     width: 100%;
   }
-  #Subtotal{
+  #Subtotal {
     width: 100%;
     padding: 20px;
   }
