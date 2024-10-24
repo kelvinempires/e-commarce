@@ -20,11 +20,13 @@
         <ul id="navbar">
           <li><a href="index.html">Home</a></li>
           <li><a href="shop.html">Shop</a></li>
-          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li id="la-bag">
-            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
           </li>
           <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
@@ -34,99 +36,81 @@
         <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
-    <section id="page-header" class="blog-header">
-      <h2>#Read More</h2>
-      <p>Read all case studies about our products!</p>
+    <section id="page-header" class="about-header">
+      <h2>#Let's talk</h2>
+      <p>LEAVE A MASSAGE,we love to hear from you!</p>
     </section>
-    <section id="blog">
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="./image/blog4.jpg" alt="" />
-        </div>
-        <div class="blog-details">
-          <h4>kEmpire Exclusive 2024 Menswear Collection</h4>
-          <p>
-            kelvin Empire County Spring 2024 Menswear collection, runway looks,
-            beauty, models, and reviews.
-          </p>
-          <a href="">CONTINUE READING</a>
-        </div>
-        <h1>13/01</h1>
-      </div>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="./image/blog2.jpg" alt="" />
-        </div>
-        <div class="blog-details">
-          <h4>Trends, Runway Reviews --</h4>
-          <p>
-            The Cut View the Jeremy Scott Spring 2019 RTW collection. See photos
-            and video of the S2019RTW runway show. Jeremy Scott
-          </p>
-          <a href="">CONTINUE READING</a>
-        </div>
-        <h1>13/01</h1>
-      </div>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="./image/blog1.jpg" alt="" />
-        </div>
-        <div class="blog-details">
-          <h4>kEmpire fashion 2024 Menswear Collection</h4>
-          <p>
-            kelvin Empire County Spring 2024 Menswear collection, runway looks,
-            beauty, models, and reviews.
-          </p>
-          <a href="">CONTINUE READING</a>
-        </div>
-        <h1>13/01</h1>
-      </div>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="./image/blog3.jpg" alt="" />
-        </div>
-        <div class="blog-details">
-          <h4>kEmpire Project Inflamed</h4>
-          <p>
-            kEmpire Project Inflamed, fashion, men's fashion,
-            Menswear, Men's bracelets Menswear editorial men and women, high
-            fashion, black men fashion,
-          </p>
-          <a href="">CONTINUE READING</a>
-        </div>
-        <h1>13/01</h1>
-      </div>
-      <div class="blog-box">
-        <div class="blog-img">
-          <img src="./image/blog5.jpg" alt="" />
-        </div>
-        <div class="blog-details">
-          <h4>kEmpire Spring 2024 Menswear Collection</h4>
-          <p>
-            kEmpire Spring 2020 Menswear collection, runway looks, beauty,
-            models, and reviews.
-          </p>
-          <a href="">CONTINUE READING</a>
-        </div>
-        <h1>13/01</h1>
-      </div>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="image/img22.jpg" alt="" /></td>
+            <td>carton Astronaut T-Shirts</td>
+            <td>&#8358; 400.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>&#8358; 400.000</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="image/cart 1.jpg" alt="" /></td>
+            <td>carton Astronaut T-Shirts</td>
+            <td>&#8358; 300.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>&#8358; 300.000</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="far fa-times-circle"></i></a>
+            </td>
+            <td><img src="image/img13.jpg" alt="" /></td>
+            <td>carton Astronaut T-Shirts</td>
+            <td>&#8358; 450.000</td>
+            <td><input type="number" value="1" /></td>
+            <td>&#8358; 450.000</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-    <section id="pagination" class="section-p1">
-      <a class="activeNum" href="blog.html">1</a>
-      <a href="blog2.html">2</a>
-      <a href="blog3.html"><i class="fa-solid fa-arrow-right-long"></i></a>
-    </section>
-    <section id="newsletter" class="section-p1" class="section-m1">
-      <div class="newtext">
-        <h4>Sign Up for newsletters</h4>
-        <p>
-          Get E-mail updates about our latest shop and
-          <span>special offers.</span>
-        </p>
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter your coupon" />
+          <button class="normal">Apply</button>
+        </div>
       </div>
-      <div class="form">
-        <input type="text" placeholder="your email address" />
-        <button class="normal">sign up</button>
+      <div id="Subtotal">
+        <h3>cart Totals</h3>
+        <table>
+            <tr>
+                <td>cart Subtotal</td>
+                <td>&#8358; 400.000</td>
+            </tr>
+            <tr>
+                <td>shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>&#8358; 400.000</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
       </div>
     </section>
     <footer class="section-p1">
@@ -140,7 +124,7 @@
         <p><strong>hours:</strong> 18 6:42 - 10.00, sun - mon oct</p>
         <div class="follow">
           <h4>follow us</h4>
-           <div class="icons">
+          <div class="icons">
             <a href="https://wa.me/+2349153421622" target="_blank"
               ><i class="fab fa-whatsapp"></i
             ></a>
