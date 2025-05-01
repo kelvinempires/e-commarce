@@ -52,36 +52,42 @@
             <td>Subtotal</td>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
-            </td>
-            <td><img src="image/img22.jpg" alt="" /></td>
-            <td>carton Astronaut T-Shirts</td>
-            <td>&#8358; 400.000</td>
-            <td><input type="number" value="1" /></td>
-            <td>&#8358; 400.000</td>
+        <tbody class="cart-items">
+          <tr class="cart-row">
+            <td class="danger-btn">
+              <button  type="button">
+                <i class="far fa-times-circle"></i></button></td>
+            <td class="cart-item-img"><img src="image/img22.jpg" alt="" /></td>
+            <td class="cart-name">carton Astronaut T-Shirts</td>
+            <td class="cart-price">&#8358; 400.000</td>
+            <td ><input class="quantity-input" type="number" value="2" /></td>
+            <td class="cart-total">&#8358; 400.000</td>
           </tr>
-          <tr>
+          <tr class="cart-row">
             <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
+              <button class="danger-btn" type="button">
+                <i class="far fa-times-circle"></i>
+              </button>
+              <!-- <a href="#"><i class="far fa-times-circle"></i></a> -->
             </td>
-            <td><img src="image/cart 1.jpg" alt="" /></td>
-            <td>carton Astronaut T-Shirts</td>
-            <td>&#8358; 300.000</td>
-            <td><input type="number" value="1" /></td>
-            <td>&#8358; 300.000</td>
+            <td class="cart-item-img"><img src="image/cart 1.jpg" alt="" /></td>
+            <td class="cart-name">carton Astronaut T-Shirts</td>
+            <td class="cart-price cart column">&#8358; 300.000</td>
+            <td ><input class="quantity-input" type="number" value="1" /></td>
+            <td class="cart-total">&#8358; 300.000</td>
           </tr>
-          <tr>
+          <tr class="cart-row">
             <td>
-              <a href="#"><i class="far fa-times-circle"></i></a>
+              <button class="danger-btn" type="button">
+                <i class="far fa-times-circle"></i>
+              </button>
+              <!-- <a href="#"><i class="far fa-times-circle"></i></a> -->
             </td>
-            <td><img src="image/img13.jpg" alt="" /></td>
-            <td>carton Astronaut T-Shirts</td>
-            <td>&#8358; 450.000</td>
-            <td><input type="number" value="1" /></td>
-            <td>&#8358; 450.000</td>
+            <td class="cart-item-img"><img src="image/img13.jpg" alt="" /></td>
+            <td class="cart-name">carton Astronaut T-Shirts</td>
+            <td class="cart-price cart column">&#8358; 450.000</td>
+            <td><input class="quantity-input"  type="number" value="1" /></td>
+            <td class="cart-total">&#8358; 450.000</td>
           </tr>
         </tbody>
       </table>
@@ -97,18 +103,18 @@
       <div id="Subtotal">
         <h3>cart Totals</h3>
         <table>
-            <tr>
-                <td>cart Subtotal</td>
-                <td>&#8358; 400.000</td>
-            </tr>
-            <tr>
-                <td>shipping</td>
-                <td>Free</td>
-            </tr>
-            <tr>
-                <td><strong>Total</strong></td>
-                <td><strong>&#8358; 400.000</strong></td>
-            </tr>
+          <tr>
+            <td>cart Subtotal</td>
+            <td>&#8358; 400.000</td>
+          </tr>
+          <tr>
+            <td>shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>&#8358; 400.000</strong></td>
+          </tr>
         </table>
         <button class="normal">Proceed to checkout</button>
       </div>
@@ -137,7 +143,9 @@
             <a href="https://www.linkedin.com/in/kelvinEwurum" target="_blank"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
-            <a href="https://www.instagram.com/in/kelvin_empires" target="_blank"
+            <a
+              href="https://www.instagram.com/in/kelvin_empires"
+              target="_blank"
               ><i class="fab fa-instagram"></i
             ></a>
           </div>
